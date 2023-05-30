@@ -1,14 +1,11 @@
 # Coffee Delivery
 
-## English
+### Sobre o projeto?
 
-### What is the project?
+O Projeto Coffee Delivery é uma aplicação de comércio eletrônico de café que permite aos usuários solicitar e receber café fresco e delicioso no conforto de suas casas ou escritórios. 
+ 
 
-2º Challenge of Ignite @Rocketseat. This is a project made entirely in React of an Ecommerce Coffee sales site to improve concets such as Context API, Router, form validation through React-hook-form and Zod and Styled Components for styling
-
-You can see the project: [Coffee Delivery](https://coffee-delivery-azure.vercel.app/)
-
-### Main used technologies:
+### Tecnologias:
 
 - React
 - TypeScript
@@ -18,29 +15,10 @@ You can see the project: [Coffee Delivery](https://coffee-delivery-azure.vercel.
 - Zod
 - uuid
 
-
-## Português
-
-### O que é o projeto?
-
-2º Desafio do Ignite @Rocketseat. Esse é um projeto feito totalmente em React de um site Ecommerce de vendas de café para aprimorar conceitos como Context API, Router, validação de formulário por meio do React-hook-form e do Zod e Styled Components para estilização
-
-Voce pode conferir o projeto: [Coffee Delivery](https://coffee-delivery-azure.vercel.app/)
-
-### Principais tecnologias usadas:
-
-- React
-- TypeScript
-- React-router-dom
-- Styled-components
-- React-hook-form (@hookform/resolvers)
-- Zod
-- uuid
-
-### Project Images
+### Images
 
 <div>
-  <img src="/src/assets/project/image0.png" width="580px" styles='margin-right: 30px;' />
-  <img src="/src/assets/project/image1.png" width="580px" />
-  <img src="/src/assets/project/image2.png" />
+  <img src="/src/assets/github/image0.png" width="580px" styles='margin-right: 30px;' />
+  <img src="/src/assets/github/image1.png" width="580px" />
+  <img src="/src/assets/github/image2.png" />
 </div>
