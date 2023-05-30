@@ -1,0 +1,51 @@
+.header {
+  /* width: 100%; */
+  margin: 0 auto;
+  display: flex;
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background: var(--background);
+}
+
+.groupRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  /* width: 196px; */
+  /* height: 38px; */
+  font-size: 14px;
+}
+
+.mapPin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 4px;
+  /* width: 146px; */
+  height: 1.5rem;
+  background: var(--purple-light);
+  color: var(--purple-dark);
+  border-radius: 6px;
+}
+
+.shoppingcart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 4px;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  color: var(--yellow-dark);
+  background-color: var(--yellow-light);
+  border-radius: 6px;
+}

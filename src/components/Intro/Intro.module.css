@@ -1,0 +1,139 @@
+.intro {
+  /* position: absolute; */
+  height: 34rem;
+  left: 0px;
+  right: 0px;
+  /* top: 104px; */
+  margin-top: 94px;
+  /* padding: 6rem 10rem; */
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  height: 350px;
+  /* flex-direction: row; */
+}
+
+.groupRight {
+  /* flex-direction: row; */
+  /* position: absolute; */
+  width: 476px;
+  height: 360px;
+  left: calc(50% - 476px / 2 + 322px);
+  top: calc(50% - 360px / 2);
+}
+
+.groupLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.groupLeftTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  /* position: absolute; */
+  /* width: 588px; */
+  /* height: 192px; */
+  /* left: calc(50% - 588px / 2 - 266px); */
+  /* top: calc(50% - 192px / 2 - 82px); */
+}
+
+.title {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  color: var(--base-title);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  /* flex-grow: 0; */
+}
+
+.base-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+
+  color: var(--base-subtitle);
+  font-stretch: 100;
+}
+
+.subgroup {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.subgroupTop,
+.subgroupBotton {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  /* width: 567px; */
+}
+
+.shopping,
+.package,
+.timer,
+.coffee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 100%;
+
+  /* justify-content: space-between; */
+  /* width: 250px; */
+}
+
+.iconShopping,
+.iconPackage,
+.iconTimer,
+.iconCoffee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  /* gap: 8px; */
+
+  width: 24px;
+  height: 24px;
+  border-radius: 1000px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.iconShopping {
+  background: var(--yellow-dark);
+  color: var(--background);
+}
+
+.iconPackage {
+  background: var(--base-text);
+  color: var(--background);
+}
+
+.iconTimer {
+  background: var(--yellow);
+  color: var(--background);
+}
+
+.iconCoffee {
+  background: var(--purple);
+  color: var(--background);
+}

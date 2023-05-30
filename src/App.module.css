@@ -1,0 +1,15 @@
+.wrapper {
+  /* position: relative; */
+  /* max-width: 46rem; */
+  margin: 0 auto;
+  padding: 0 10rem;
+}
+
+.divHome {
+  display: flex;
+  flex-direction: column;
+  gap: 108px;
+}
+.coffeeList {
+  /* top: 530px; */
+}

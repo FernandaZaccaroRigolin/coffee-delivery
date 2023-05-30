@@ -1,0 +1,290 @@
+.main {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 900px;
+  flex-direction: row;
+  gap: 32px;
+  /* align-self: stretch; */
+  /* align-items: start; */
+}
+
+.divLeft {
+  width: 640px;
+  height: 591px;
+}
+
+.titleLeft {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* align-text: left; */
+  color: var(--base-subtitle);
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  /* position: absolute;
+width: 640px;
+height: 591px;
+left: 160px;
+top: 182px; */
+}
+
+.adress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 32px;
+  height: 300px;
+  background: var(--base-card);
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.pay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 32px;
+
+  /* width: 640px; */
+  height: 130px;
+  background: var(--base-card);
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.divRight {
+  /* width: 448px; */
+  align-self: stretch;
+  /* display: flex;
+  flex-direction: column; */
+  flex: 1;
+  /* height: 591px; */
+}
+
+.titleRight {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* display: flex;
+  align-items: center; */
+  color: var(--base-subtitle);
+  margin-bottom: 15px;
+  /* align-items: start; */
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+
+  /* gap: 24px; */
+  /* align-self: stretch; */
+
+  /* position: absolute;
+  width: 448px;
+  height: 498px;
+  left: 832px;
+  top: 182px; */
+
+  /* Base/Card */
+  width: 448px;
+  background: var(--base-card);
+  border-radius: 6px 44px;
+}
+
+.MapPinLine {
+  color: var(--yellow-dark);
+}
+
+.adressHeader,
+.payHeader {
+  display: flex;
+  gap: 8px;
+}
+
+.adressHeaderText,
+.payHeaderText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.adressHeaderTitle,
+.payHeaderTitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+
+  /* display: flex;
+align-items: center; */
+
+  /* Base/Subtitle */
+
+  color: #403937;
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0; */
+}
+
+.adressHeaderDescription,
+.payHeaderDescription {
+  /* width: 530px;
+  height: 21px; */
+
+  /* Text/Regular S */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  /* or 18px */
+
+  /* display: flex;
+  align-items: center; */
+
+  /* Base/Text */
+
+  color: var(--base-text);
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0; */
+}
+
+.adressMain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 4px;
+  background: var(--base-input);
+  border: 1px solid var(--base-button);
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--base-text);
+}
+
+input:hover,
+input:focus {
+  border: 1px solid var(--yellow-dark);
+}
+
+.line3 {
+  display: flex;
+
+  gap: 16px;
+}
+.line4 {
+  display: flex;
+
+  gap: 16px;
+}
+
+.cep {
+  width: 200px;
+}
+.rua {
+  width: 560px;
+}
+
+.numero,
+.bairro {
+  width: 200px;
+}
+
+.complemento {
+  width: 348px;
+}
+
+.cidade {
+  width: 276px;
+}
+
+.uf {
+  width: 60px;
+}
+
+.currencyDollar {
+  color: var(--purple);
+}
+
+.payMain {
+  display: flex;
+  flex-direction: row;
+
+  gap: 12px;
+}
+
+.credito,
+.debito,
+.dinheiro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 148px;
+  background: var(--base-button);
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: var(--base-text);
+}
+
+.iconPay {
+  color: var(--purple);
+}
+
+.iconPay.active {
+  color: var(--purple);
+}
